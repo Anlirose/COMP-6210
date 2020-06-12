@@ -1,0 +1,184 @@
+.navigation-clean {
+    background: #0267b5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width:767px) {
+    .navigation-clean {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .navigation-clean .navbar-header {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  
+  .navigation-clean .navbar-brand {
+    font-weight: bold;
+    color: inherit;
+  }
+  
+  .navigation-clean .navbar-brand:hover {
+    color: #222;
+  }
+  
+  .navigation-clean.navbar-inverse .navbar-brand:hover {
+    color: #dbd5d5;
+  }
+  
+  .navigation-clean .navbar-brand img {
+    height: 100%;
+    display: inline-block;
+    margin-right: 10px;
+    width: auto;
+  }
+  
+  .navigation-clean .navbar-toggle {
+    border-color: #ddd;
+  }
+  
+  .navigation-clean .navbar-toggle:hover, .navigation-clean .navbar-toggle:focus {
+    background: none;
+  }
+  
+  .navigation-clean.navbar-inverse .navbar-toggle {
+    border-color: #555;
+  }
+  
+  .navigation-clean .navbar-toggle .icon-bar {
+    background-color: #888;
+  }
+  
+  .navigation-clean.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #eee;
+  }
+  
+  .navigation-clean .navbar-collapse, .navigation-clean .navbar-form {
+    border-top-color: #ddd;
+  }
+  
+  .navigation-clean.navbar-inverse .navbar-collapse, .navigation-clean.navbar-inverse .navbar-form {
+    border-top-color: #333;
+  }
+  
+  .navigation-clean .navbar-nav > .active > a, .navigation-clean .navbar-nav > .open > a {
+       color: #77B710;
+    background: none;
+    box-shadow: none;
+  }
+  
+  .navigation-clean.navbar-default .navbar-nav > .active > a, .navigation-clean.navbar-default .navbar-nav > .active > a:focus, .navigation-clean.navbar-default .navbar-nav > .active > a:hover {
+    color: #77B710;
+    box-shadow: none;
+    background: none;
+    pointer-events: none;
+  }
+  
+  .navigation-clean.navbar .navbar-nav > li > a {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  
+  .navigation-clean.navbar-default .navbar-nav > li > a {
+    color: white;
+  }
+  
+  .navigation-clean.navbar-default .navbar-nav > li > a:focus, .navigation-clean.navbar-default .navbar-nav > li > a:hover {
+    color: white !important;
+    background-color: transparent;
+  }
+
+  
+  .navigation-clean.navbar-inverse {
+    background-color: #1f2021;
+    color: #fff;
+  }
+  
+  .navigation-clean.navbar-inverse .navbar-nav > .active > a, .navigation-clean.navbar-inverse .navbar-nav > .active > a:focus, .navigation-clean.navbar-inverse .navbar-nav > .active > a:hover {
+    color: #d41919;
+    box-shadow: none;
+    background: none;
+    pointer-events: none;
+  }
+  
+  .navigation-clean.navbar-inverse .navbar-nav > li > a {
+    color: #dfe8ee;
+  }
+  
+  .navigation-clean.navbar-inverse .navbar-nav > li > a:focus, .navigation-clean.navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff !important;
+    background-color: transparent;
+  }
+
+  .footer-basic {
+    padding: 40px 0;
+    background-color: #ffffff;
+    color: #4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  
+  .footer-basic li {
+    padding: 0 10px;
+  }
+  
+  .footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity: 1;
+  }
+  
+  .footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity: 0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+  }
+  
+  
+  
